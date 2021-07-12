@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rash Driving Detection</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text"></string>
+    <string name="appwidget_status"></string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
+

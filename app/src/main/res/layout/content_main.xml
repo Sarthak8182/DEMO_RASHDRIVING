@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/wallmain"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.demo_rashdriving.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="332dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/servicede"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/oval"
+        android:text="SignOut/Deactivate"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/serviceact" />
+
+    <Button
+        android:id="@+id/serviceact"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/oval"
+        android:text="Activate"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/servicede"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="419dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="400dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter second emergency contact no."
+        android:inputType="number"
+        android:textColor="#EBE2E2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNumber" />
+
+    <ImageButton
+        android:id="@+id/abt"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="343dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/info" />
+
+    <TextView
+        android:id="@+id/firstNumber"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#EBE2E2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

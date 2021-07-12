@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "963087098200",
+    "firebase_url": "https://rashdrivingdetctionsystem.firebaseio.com",
+    "project_id": "rashdrivingdetctionsystem",
+    "storage_bucket": "rashdrivingdetctionsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963087098200:android:c33bc076153e1ea8cd852d",
+        "android_client_info": {
+          "package_name": "com.example.easyperm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963087098200-1dgqm6s26jd7her6up4hviql5vfda37t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easyperm",
+            "certificate_hash": "7148f83f18a50a49b112bd1f030d9b6be4a2edb2"
+          }
+        },
+        {
+          "client_id": "963087098200-am7l6s3tceirsrep0sgb9k05lpop792e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.easyperm",
+            "certificate_hash": "d92e960d514d4943dc2ca3a52e8546959043f436"
+          }
+        },
+        {
+          "client_id": "963087098200-0rvthesgts4qeohlavog9gjdd4bkgm6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTZghoYDbvlq4TL1zoGVvp6zH2DPYg4Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963087098200-0rvthesgts4qeohlavog9gjdd4bkgm6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

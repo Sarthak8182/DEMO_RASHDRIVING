@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="This app helps in accident cases or when you're terribly hurt, immediately informing your emergency contacts about your whereabouts by sending them SMSes. All You need to do is enter your nearones contacts in the provided field and start the service.\n As the service gets activated place your mobile phone on the car's dashboard or at an appropriate location on bikes. In case of any mishappenings the contacts will receive two messages regarding accident location and other regarding nearby hospitals. HAVE A SAFE RIDE!!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+</RelativeLayout>
